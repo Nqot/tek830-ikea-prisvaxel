@@ -1,0 +1,191 @@
+
+--- PAGE 1 ---
+ 
+Internal 
+IKEA Innovation Challenges to Chalmers BSc/MSc in Information & Communication 
+Technology 
+Melis Yalçin Bayir and Joana Barata Correia, Inter IKEA Group 
+2026-08-24 
+ 
+ 
+Challenge 1. Make sustainable affordability the engine of growth 
+IKEA’s business idea depends on offering well-designed, functional products at prices so low 
+that the many people can afford them, while its scale and franchise model support continued 
+growth. Recent price reductions increased sales quantities, showing how affordability can drive 
+higher volumes. The strategic challenge is to make healthy and sustainable choices genuinely 
+affordable and attractive while halving absolute value-chain emissions by FY30 and reducing 
+resource use even as the business grows. This is critical because success cannot be measured 
+only per product: total growth must remain within IKEA’s absolute climate and resource 
+commitments.  
+ 
+In simple terms: 
+ How can IKEA keep prices low and attract more customers without increasing its total 
+environmental impact? 
+The tension: 
+• Lower prices = more sales 
+• More sales = more products produced and transported 
+• More products can mean higher emissions and resource use 
+ 
+Problem Statement 
+How can IKEA make sustainable choices the most affordable choice while continuing to grow 
+and reducing total climate impact? 
+ 
+Proto Persona 
+ 
+• Emma, 32, Young Family Planner 
+ Wants sustainable products but has a limited household budget. 
+• Markus, 25, Cost-Conscious Shopper 
+ Prioritizes the lowest price and wants help finding affordable sustainable options.  
+• Johan, 50, Durability-Focused Shopper 
+ Believes buying fewer, longer-lasting products is more sustainable and wants products 
+that offer long-term value. 
+• Elin, 38, Design-Oriented Customer 
+ Values aesthetics and quality but wants to make responsible purchasing decisions. 
+ 
+Data opportunity: 
+Track which products, materials, and customer choices create the biggest sustainability / cost / 
+design / quality impact while remaining affordable. 
+ 
+ 
+Challenge 2. Secure a resilient, regenerative and traceable material system 
+
+--- PAGE 2 ---
+ 
+Internal 
+Materials are the largest part of the IKEA climate footprint, while the business depends heavily 
+on forests, agriculture, water, minerals and functioning ecosystems. IKEA must secure 
+affordable, high-volume access to low-carbon, renewable and recycled materials while 
+preventing deforestation, reducing water withdrawal, minimising harmful chemicals and 
+respecting people connected to sourcing. This requires much stronger traceability and place-
+specific action, because ecosystem disruption can create material shortages, price increases 
+and compliance costs. Material transformation is therefore not only a sustainability priority; it is 
+fundamental to future product availability, cost and business resilience.  
+ 
+In simple terms: 
+ How can IKEA know exactly where its materials come from and ensure they are sustainable, 
+available, and affordable in the future? 
+The tension: 
+• IKEA relies heavily on wood, cotton, metals, water, and other natural resources. 
+• Climate change, deforestation, and resource shortages can disrupt supply and increase 
+costs. 
+Problem Statement 
+ How can IKEA use data to create full visibility of materials, ensuring they are low-carbon, 
+responsibly sourced, and resilient to future supply risks? 
+ 
+Focus Areas (You can choose one focus area to work with proto persona) 
+• Wood 
+• Metal 
+• Plastics 
+• Textiles 
+ 
+Proto Persona 
+Johan, 41, Material Sourcing Leader 
+Needs better insight into material origins, environmental impacts, and supply chain risks to 
+make smarter sourcing decisions.  
+ 
+Data opportunity: 
+ Provide visibility into material sources, environmental risks, supplier performance, and future 
+shortages. 
+ 
+ 
+Challenge 3. Turn circularity into a scalable and profitable business model 
+IKEA aims for a 90% average circular fulfilment score, at least 90% recycled or renewable 
+content and circular services in at least 80% of markets by 2030. The challenge is to connect 
+circular product design with affordable secondary materials, repair and spare parts, take-back, 
+resale, reverse logistics and convenient customer experiences—rather than treating circularity 
+as a separate service layer. Current IKEA reporting identifies regulatory, infrastructure, logistics, 
+customer-expectation and capability barriers to scaling these models. Solving them is essential 
+to decouple growth from virgin material use and end-of-life waste while creating new forms of 
+customer value.  
+ 
+
+--- PAGE 3 ---
+ 
+Internal 
+In simple terms: 
+How can IKEA make repairing, reusing, reselling, and recycling products as easy and attractive 
+as buying new ones? 
+ 
+The tension: 
+• Circularity is as important contribution for sustainability. 
+• It is often harder, more expensive, and less convenient than buying new. 
+ 
+Problem Statement 
+How can IKEA make repair, reuse, resale, and recycling easier, more convenient, and more 
+profitable than buying new products? 
+ 
+Possible Focus Areas (choose one): 
+• Repair: Making repairs and spare parts more accessible and attractive. 
+• Resale / Recommerce: Helping customers buy and sell pre-owned IKEA products. 
+• Take-back: Improving product return and collection programs. 
+• Recycling: Increasing material recovery and reducing waste. 
+• Recirculation: Keeping products in use for as long as possible through reuse and 
+redistribution. 
+• Reverse Logistics: Optimizing the flow of returned products and materials. 
+ 
+ 
+Consider both perspectives 
+• The customer buying a used, repaired, or refurbished product. 
+• The customer selling, returning, repairing, or recycling a product. 
+ 
+Proto Persona 
+Sara, 28, Urban Renter 
+Frequently moves homes and wants affordable, flexible ways to buy, repair, sell, or return 
+furniture. 
+ 
+Data opportunity: 
+Use data to optimize take-back programs, resale platforms, repair services, spare parts 
+availability, and reverse logistics. 
+ 
+ 
+Challenge 4. Deliver a fair and just transition across the value chain 
+IKEA’s value chain spans external suppliers, manufacturing, transport, independent franchisees 
+and retail markets; approximately 90% of the product range is sourced from external suppliers. 
+IKEA has identified potential health and safety risks, forced-labor and child-labor concerns as 
+material value-chain impacts, while the strategy commits to stronger due diligence, decent 
+work, living wages and a just transition. The challenge is to turn these commitments into 
+prevention, worker engagement, remedy and measurable improvement across multiple tiers 
+and geographies—also where climate, circularity and technology change jobs and livelihoods. 
+This is critical for resilience, trust, regulatory compliance and IKEA’s license to operate.  
+
+--- PAGE 4 ---
+ 
+Internal 
+ 
+In simple terms: 
+How can IKEA make sure people across its global supply chain are treated fairly and work in safe 
+conditions? 
+ 
+The tension: 
+• IKEA works with thousands of suppliers worldwide. 
+• Risks such as poor working conditions, low wages, or labor rights violations can exist 
+deep in the supply chain. 
+ 
+Problem Statement 
+ How can IKEA use data to identify, prevent, and improve social and labor risks across its global 
+value chain? 
+ 
+Challenge Context Students will explore the challenge from a country or regional perspective, 
+recognizing that social and labor risks vary significantly across sourcing locations. 
+ 
+Choose one of the following Countries: 
+• China 
+• Poland 
+• Italy 
+• Lithuania 
+• Germany 
+• Romania 
+• Vietnam 
+• Sweden 
+Proto Persona  
+Maria, 42, Sustainability & Compliance Manager 
+Needs visibility from following countries into labor conditions, supplier risks, and improvement 
+opportunities within a specific sourcing country. 
+ 
+Data opportunity: 
+Identify high-risk suppliers, monitor worker conditions, and measure social impact 
+improvements. 
+ 
+ 
+ 
+ 

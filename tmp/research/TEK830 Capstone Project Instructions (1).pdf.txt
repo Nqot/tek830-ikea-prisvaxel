@@ -1,0 +1,220 @@
+
+--- PAGE 1 ---
+1 
+ 
+TEK830 Capstone Project 
+Digital Innovation Prototype and Project Showcase Site 
+Project Overview 
+As part of this course, student teams will create a digital solution that addresses a 
+practical challenge presented by an industry partner. The project combines innovation, 
+sustainability, user-centered design, and technology development. During the course, 
+teams will participate in workshops, complete project milestones, conduct interviews 
+with relevant stakeholders, and receive feedback from instructors and peers. 
+The ﬁnal project consists of two main outputs: 
+1. An interactive software prototype. 
+2. A project website that explains and demonstrates the solution. 
+Selected projects may be recognized by external stakeholders based on their quality, 
+originality, and potential value. 
+ 
+1. Interactive Software Prototype 
+Objective 
+Design and build a software-based solution that helps address a meaningful 
+organizational or operational challenge. The solution should demonstrate technical 
+feasibility, user value, and consideration of sustainability impacts. 
+Key Expectations 
+Problem Relevance 
+The proposed solution should address a clearly deﬁned challenge and provide a 
+meaningful improvement or opportunity. 
+Functional Prototype 
+The prototype must include working functionality rather than only wireframes or visual 
+mock-ups. Users should be able to interact with at least one core feature. 
+Data Usage 
+Use organizational, publicly available, simulated, or sample data where appropriate to 
+demonstrate how the solution works. 
+User Focus 
+Interface design and functionality should reﬂect the needs of intended users. 
+
+--- PAGE 2 ---
+2 
+ 
+Sustainability Considerations 
+Teams should explain how the solution may contribute to environmental, social, or 
+economic sustainability and, where possible, propose indicators for evaluating impact. 
+Originality 
+The project should demonstrate creativity through a new idea, a novel application of 
+existing technologies, or a signiﬁcant improvement to current practices. 
+Software Development 
+A working implementation is required. Acceptable formats may include web 
+applications, mobile applications, desktop software, dashboards, analytics tools, 
+decision-support systems, or similar digital products. 
+Demonstration 
+The solution must be demonstrable through direct interaction, a live presentation, or a 
+recorded walkthrough showing system responses to user actions. 
+Authentic Development 
+Teams should be able to describe and demonstrate their own contribution to the design 
+and development process. 
+Example Areas of Interest 
+Potential project themes might include: 
+• Energy efficiency and resource optimization 
+• Workplace safety and risk management 
+• Waste reduction and circular-economy initiatives 
+• Data-driven decision support 
+• Employee well-being and operational sustainability 
+• Artiﬁcial intelligence applications in industry 
+  
+
+--- PAGE 3 ---
+3 
+ 
+2. Project Website 
+Objective 
+Create a website that communicates the project's purpose, development process, and 
+outcomes to both technical and non-technical audiences. 
+Content Requirements 
+The website should: 
+• Clearly explain the problem being addressed. 
+• Present the proposed solution and its key beneﬁts. 
+• Describe major prototype features and how users interact with them. 
+• Use text, images, diagrams, videos, or other media to communicate the project 
+effectively. 
+Required Elements 
+Presentation Materials 
+Include ﬁnal presentation slides and a short project pitch video. 
+The video should be understandable to a broad audience and may use any suitable 
+format, such as: 
+• Team presentation 
+• Demonstration video 
+• Animation 
+• Story-based scenario 
+• Slide-based narration 
+Prototype Demonstration 
+Provide either: 
+• An embedded interactive version of the prototype, or 
+• A video demonstration of the system in use. 
+Project Information 
+The site should also contain: 
+• Project summary 
+• Team member information 
+
+--- PAGE 4 ---
+4 
+ 
+• Contact details 
+• References and sources 
+• A brief explanation of any generative AI tools used during the project 
+Overall Deliverable 
+Each team will submit: 
+• A working software prototype demonstrating a digital innovation. 
+• A companion website that communicates the solution, development process, 
+and expected impact. 
+Together, these deliverables should showcase technical development, innovation 
+practices, user-centered design, and sustainability considerations. 
+Evaluation Criteria 
+Projects may be assessed using criteria such as: 
+• Relevance and originality of the idea 
+• Quality and usability of the prototype 
+• Evidence of a user-centered design process 
+• Consideration of sustainability impacts 
+• Effectiveness of communication and presentation 
+• Quality of the project website 
+• Compliance with project requirements 
+ 
+Recommendations for Success 
+Communication 
+• Present a coherent and compelling narrative. 
+• Make the value of the solution immediately understandable. 
+• Adapt communication to both technical and non-technical audiences. 
+Project Scope 
+• Focus on a speciﬁc problem rather than attempting to solve everything. 
+• Prioritize a small number of well-developed features. 
+• Emphasize functionality, clarity, and usability. 
+
+--- PAGE 5 ---
+5 
+ 
+Research 
+• Review existing solutions and industry practices. 
+• Conduct interviews and gather stakeholder feedback. 
+• Use benchmarking to identify opportunities for differentiation. 
+Impact 
+• Prioritize practical value and measurable outcomes. 
+• Link design decisions to organizational and sustainability goals. 
+Development Quality 
+• Maintain clean, reliable, and maintainable code. 
+• Seek feedback regularly and iterate based on insights. 
+• Demonstrate thoughtful design choices throughout the project. 
+ 
+More tips 
+• Show what’s behind your idea. IKEA will repeatedly ask for more detail on how 
+things actually work. Don’t just describe; demonstrate. 
+• Clarify the user experience. Who uses your tool, how often, and for what 
+decisions? 
+• Show what’s real vs. conceptual. Be transparent about what your prototype does 
+now and what’s planned for later. 
+• Integrate IKEA’s feedback. Many of their questions will point to missing details — 
+use those as a guide for what to strengthen. 
+• If needed, run one or two short user tests and/or interviews to add credibility and 
+reﬁne your design story. 
+• Make your visuals central. Show your prototype early, and talk over it —  not the 
+other way around. 
+  
+
+--- PAGE 6 ---
+6 
+ 
+2024 Capstone Innovations and Websites 
+Here is a video based on the course: https://www.youtube.com/watch?v=SbkO3FrS4YE  
+ 
+Here are links to the ﬁnal websites with pitches and videos embedded from 2024 and 
+2025’s student teams. (Some might not function anymore.) 
+ 
+Please keep in mind that this year’s IKEA challenges are new and not the same as the 
+ones that previous years’ students addressed.  
+2024 
+1. Click Here to go to the submission  
+2. Click Here to go to the submission  
+3. Click Here to go to the submission  
+4. Click Here to go to the submission  
+5. Click Here to go to the submission  
+6. Click Here to go to the submission  
+7. Click Here to go to the submission  
+8. Click Here to go to the submission  
+9. Click Here to go to the submission  
+10. Click Here to go to the submission  
+11. Click Here to go to the submission  
+12. Click Here to go to the submission  
+13. Click Here to go to the submission  
+14. Click Here to go to the submission  
+15. Click Here to go to the submission  
+16. Click Here to go to the submission  
+17. Click Here to go to the submission  
+18. Click Here to go to the submission  
+19. Click Here to go to the submission  
+20. Click Here to go to the submission  
+
+--- PAGE 7 ---
+7 
+ 
+2025 
+https://robust-team1.chalmers.it/ 
+https://zefzen.github.io/AID_Team2/ 
+http://ikear-team3.web.app/ 
+https://sites.google.com/view/visualikea-team4/home 
+https://sites.google.com/view/tap-and-tell-team-5/home 
+https://rapportor-group6.vercel.app/ 
+https://sites.google.com/view/lineai-team7 
+https://sites.google.com/view/tek830hoken-team8/home 
+https://greencast-team9.netlify.app/ 
+https://wair.my.canva.site 
+https://sites.google.com/view/has-team11/home 
+https://reportikea-team12.netlify.app 
+https://sites.google.com/view/videenergy-team13/home 
+https://krafta-team14.vercel.app/ 
+https://sites.google.com/view/livboj-team15 
+https://siuuit.github.io/FILTRERA_Group16-TEK830/ 
+https://innovation-sunlytics-team17.vercel.app/ 
+https://smartpunkt-team18.vercel.app/ 
+http://team19.safetybot.app 
+https://sites.google.com/view/team20-crav-t/start 
+ 
+ 
