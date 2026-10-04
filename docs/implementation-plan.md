@@ -39,11 +39,11 @@ Använd HashRouter för stabila direkta länkar även vid enkel statisk hosting.
 
 ### Projektpresentation /#/
 
-1. Navigation: Idén, Prototypen, Hållbarhet, Process, Team. Primär knapp: Se prototypen.
+1. Navigation: Idén, Prototypen, Om projektet. Hållbarhet och process finns i sidans innehåll; team, källor och kontakt nås även från sidfoten. Hero innehåller primärknappen Se prototypen.
 2. Hero: Prisväxeln. Budskap: Ett val som passar både hemmet och budgeten. Kort förklaring och en riktig bild av jämförelsevyn tidigt på sidan.
 3. Problemet: Emmas begränsade budget och challenge 1:s konflikt mellan lägre priser, tillväxt och absolut miljöpåverkan.
 4. Lösningen: IKEA möjliggör erbjudandet → Emma jämför → Emma väljer → IKEA följer total påverkan.
-5. Prototyp: stora ingångar till Emma-vyn och IKEA-vyn. Ange aktuell funktionsstatus.
+5. Prototyp: Emma-vyn är huvudhandlingen; IKEA-vyn nås via en lugn textlänk. Ange aktuell funktionsstatus.
 6. Hållbarhet: miljömässig, social och ekonomisk dimension; antaganden, risk för ökad konsumtion och mätplan.
 7. Process: problemformulering, alternativa lösningar, feedback, designval, tester. Märk planerat och genomfört korrekt.
 8. Presentation: platser för pitchvideo, slutpresentation och senare demonstrationsvideo. Saknat material märks Kommer senare, utan tomma spelare eller falska länkar.
@@ -77,15 +77,55 @@ Förklarar datakällor och syntetiska värden, produktjämförbarhet, systemgrä
 
 ## Visuell specifikation
 
-- Varmvit bakgrund (#F7F6F2), mörkblå text (#172B4D), blå primärknapp (#0058A3), dämpad grön för stödjande information och gul sparsam accent. Kontrollera kontrast vid implementation.
-- Eget Prisväxeln-ordmärke och tydlig studentprojektsidentitet.
-- Systemtypsnitt initialt, ingen extern fonttjänst behövs. Brödtext cirka 16–18 px, stor rubrik cirka 40–56 px på desktop och mindre på mobil.
-- Maxbredd cirka 1200 px, konsekvent 8 px-avståndsskala, enkla kort med 12 px hörnradie.
-- Möblerna får egna enkla illustrationer eller rättighetsklarerade bilder; fiktiva produkter ska inte förväxlas med riktiga IKEA-artiklar.
-- Projektpresentation: stora rubriker och tydliga illustrationer. Emma: produktbild, pris och ett tydligt nästa steg. IKEA: kompakt tabell och begripliga jämförelsestaplar.
-- På mobil staplas produktkorten och före-/efterdata i läsordning. Undvik horisontellt beroende för centrala beslut.
-- Status förklaras med text och symbol, inte bara färg. Tangentbord, fokus, formuläretiketter och alternativtexter ingår från början.
-- Planerat presentationsspråk: engelska för kurs/IKEA-publik, SEK som valuta. Ett språk initialt; kan bytas före implementation.
+Uppdaterad efter användarens designram. Dessa beslut ersätter tidigare förslag om flera accentfärger och rundade kort. Målet är en varm, funktionell och återhållsam webbplats som passar bredvid IKEAs digitala upplevelse, med egen typografisk identitet för Prisväxeln.
+
+### Palett och typografi
+
+- Bakgrund: varm neutral #F7F6F2. Huvudtext: #242424. Sekundär text: #595959. Enda accent: blå #0058A3 för huvudknappar, länkar och fokus.
+- Tunna neutrala avdelare #D8D6D0. Fältens kant #767676 ska vara tydligare än dekorativa avdelare. Vit knapptext på blå knapp. Inga gula eller gröna accentytor.
+- Arial med sans-serif som reserv, ett konsekvent typsnitt utan externa typsnittstjänster.
+- Hero 64 px på bred desktop, cirka 40 px på mobil; sektionsrubrik 32 px desktop och 28 px mobil; brödtext 18 px med radavstånd 1,6. Etiketter och stödtext minst 16 px.
+- Normal textvikt 400 och rubriker 600–700. Storlek, placering och luft ger hierarkin; inga tunga versalrubriker eller dekorativa bokstavsavstånd.
+- Vänsterjusterad text, löptext högst 65ch. Pris är det starkaste elementet i produktjämförelsen; hero-rubriken är startsidans fokuspunkt.
+
+### Layout
+
+- Maxbredd 1160 px centrerad på sidan. Sidmarginal 24 px mobil och 48 px desktop. Avståndsskala 8, 16, 24, 32, 48, 64 och 96 px.
+- Sektionsavstånd 96 px desktop och 56 px mobil. Vanligen en eller två kolumner, högst tre för korta parallella uppgifter.
+- Header i vanligt dokumentflöde, namn till vänster och tre navigationslänkar. På mobil får länkarna en egen rad; ingen dropdown eller gömd meny behövs.
+- Hero har stor vänsterställd rubrik, en kort förklaring och en huvudknapp. En mindre, verklig förhandsvisning av produktjämförelsen kan stå bredvid. Ingen konkurrerande stor bild, färgplatta eller extra hero-knapp.
+- Sektionerna skiljs åt av luft och vid behov en tunn linje. Undvik att lägga varje textstycke i ett kort.
+- Emma: två produktkolumner med likadana bildproportioner, pris, jämförbara egenskaper och tydligt nästa steg. Budget visas nära priset. På mobil staplas produkterna och en kort före-/efterjämförelse gör dem lätta att jämföra.
+- IKEA: erbjudandedetalj följd av en tabell med baslinje, kampanj och skillnad. Högst tre sammanfattande mått överst. Scenarioförklaring och beslut i text under tabellen. Ingen tät vägg av diagram.
+- Metod och kursmaterial: läsbar dokumentlayout med beskrivande rubriker, korta stycken och enkla källänkar.
+- Sidfot: projektidentitet, kontakt, metod/källor och AI-redovisning. Inga stora dekorativa ytor.
+
+### Komponenter och beteende
+
+- Platta knappar, 4 px hörnradie, minst 48 px höjd. En tydlig huvudhandling per sektion. Sekundära handlingar är understrukna länkar eller neutrala kantknappar.
+- Alla klickytor minst 44 × 44 px på mobil. Menylänkar får tillräcklig padding och avstånd.
+- Formulär har synlig label ovanför fältet, enhet i label eller anslutande text, enkel kant och felmeddelande intill det berörda fältet. Placeholder ersätter aldrig label.
+- Fokus: tydlig 3 px blå kontur med mellanrum till elementet. Fokus måste synas även runt blå knappar och får inte döljas.
+- Hover ger en omedelbar färgändring eller understrykning. Ingen transition. Vanlig scroll utan mjuk scrollning eller scrollstyrd effekt.
+- Status visas med ord: Villkor uppfyllda, Gräns överskriden eller Underlag saknas. Konkreta orsaker anges; ingen information kräver färgseende.
+- Prototypens fasta exempel nås genom tydligt namngivna länkar. En knapp som ser ut att beräkna eller genomföra ett köp ska inte vara en låtsasfunktion; visa förhandsvisningsläget och handlingens verkliga betydelse.
+
+### Bildspråk och innehåll
+
+- Använd få funktionella produktbilder eller enkla konsekventa produktillustrationer. En eventuell hemmiljöbild måste konkret visa förvaringsbehovet och ha klarlagda användningsrättigheter.
+- Fiktiva produkter märks som exempel. Ingen IKEA-logotyp krävs; studentprojektets relation till IKEA förklaras kort och sakligt.
+- Ikoner används endast när de underlättar förståelsen, i en gemensam linjestil och tillsammans med begriplig text där det behövs.
+- Visa tidigt vad Prisväxeln gör och hur besökaren kan se exemplet. Skriv kort, konkret och utan överdrivna hållbarhetslöften.
+- Exempeldata märks där den visas. Förtroende byggs med tydliga prisuppgifter, datakällor, antaganden och kontakt. Inga påhittade kundomdömen eller effektsiffror presenteras som bevis.
+- Planerat presentationsspråk: engelska för kurs/IKEA-publik, SEK som valuta. Ett språk initialt; svenska formuleringar i planen beskriver innehållet.
+
+### Förbud och granskning före leverans
+
+Inga animationer, transitions, parallax, scroll-effekter, fade-in, karuseller, blur, glassmorphism, glow, neon, gradienter, dekorativa bakgrundsformer, bakgrundsvideo eller skuggor. Inga emojis, ikonmattor, klichéartade stockbilder, popups, flytande knappar, chatbots eller dekorativa/handskrivna typsnitt.
+
+Vid implementation kontrolleras textkontrast enligt WCAG AA, kontrast för kontroller och fokus, tangentbordsordning, rubrikhierarki, formuläretiketter, alternativtexter, klickytor samt läsbarhet med förstoring. Kontrollera 320 px mobilbredd, surfplatta och desktop utan horisontell sidoscroll. Status ska förstås utan färg. Samma regler gäller även tomma tillstånd och felvyer.
+
+Visuell slutkontroll: en tydlig fokuspunkt per vy, sparsam blå accent, inga onödiga dekorationer, konsekventa avstånd, vardaglig ton och en lättbegriplig väg genom Emmas exempel. Prototypen ska kännas besläktad med IKEA genom tydlighet och användbarhet; den egna identiteten kommer från Prisväxelns namn, stora rubriker och lugna proportioner.
 
 ## Data och beräkningsmodell
 
