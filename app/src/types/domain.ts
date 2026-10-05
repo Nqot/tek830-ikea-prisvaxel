@@ -20,7 +20,4 @@ export interface CampaignScenario {
   id: 'planned' | 'growth'
   label: string
   additionalPurchases: number
-  units: number
-  climateKg: number
-  materialKg: number
 }

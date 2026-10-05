@@ -13,13 +13,13 @@ export function Layout({ children, path }: { children: ReactNode; path: string }
       <nav aria-label="Main navigation">
         <a href="#/?section=idea" aria-current={path === '/' ? 'page' : undefined}>The idea</a>
         <a href="#/project" aria-current={path === '/project' ? 'page' : undefined}>Our project</a>
-        <a className="nav-prototype" href="#/emma" aria-current={path === '/emma' ? 'page' : undefined}>Explore the prototype <Arrow /></a>
+        <a className="nav-prototype" href="#/emma" aria-current={path === '/emma' ? 'page' : undefined}>Explore prototype <Arrow /></a>
       </nav>
     </header>
     <main id="main" tabIndex={-1} className="container">{children}</main>
     <footer className="site-footer"><div className="container footer-grid">
       <div className="footer-brand"><a className="wordmark" href="#/">prisväxeln<span className="brand-stop">.</span></a><p>Make the considered choice<br />easier to reach.</p></div>
-      <nav className="footer-links" aria-label="Project links"><span className="footer-heading">Explore</span><a href="#/emma">Customer prototype</a><a href="#/ikea">IKEA perspective</a><a href="#/method">Data & assumptions</a></nav>
+      <nav className="footer-links" aria-label="Project links"><span className="footer-heading">Explore</span><a href="#/emma">Customer prototype</a><a href="#/ikea">IKEA perspective</a><a href="#/method">Data & assumptions</a><a href="#/project">About the project</a></nav>
       <div className="footer-project"><span className="footer-heading">A student project</span><p>Chalmers · TEK830<br />Sustainable digitalization · 2026</p><p className="footer-note">Independent concept. Not an official IKEA service.</p></div>
     </div><div className="container footer-bottom"><span>Prisväxeln · A concept prototype</span><a href="#/project?section=ai">How we used AI</a></div></footer>
   </>

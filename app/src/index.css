@@ -14,8 +14,8 @@
 }
 * { box-sizing: border-box; }
 body { margin: 0; font-size: 18px; line-height: 1.6; }
-button, input { font: inherit; }
-button, a, input { -webkit-tap-highlight-color: transparent; }
+button, input, select { font: inherit; }
+button, a, input, select { -webkit-tap-highlight-color: transparent; }
 a { color: var(--accent); text-underline-offset: 5px; text-decoration-thickness: 1px; }
 a:hover { text-decoration: underline; }
 button { cursor: pointer; }

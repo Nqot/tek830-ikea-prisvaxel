@@ -5,6 +5,7 @@ import { EmmaPage } from './pages/EmmaPage'
 import { IkeaPage } from './pages/IkeaPage'
 import { ProjectPage } from './pages/ProjectPage'
 import { MethodPage } from './pages/MethodPage'
+import { alternative, exampleNeeds } from './data/demo'
 import './App.css'
 
 const titles: Record<string, string> = {
@@ -15,10 +16,10 @@ const titles: Record<string, string> = {
 export default function App() {
   const [location, setLocation] = useState(() => window.location.hash.slice(1) || '/')
   const [selectedProduct, setSelectedProduct] = useState<string | null>(null)
-  const [budget, setBudget] = useState('900')
-  const [maxWidth, setMaxWidth] = useState('80')
-  const [minimumShelves, setMinimumShelves] = useState('2')
-  const [offerDiscount, setOfferDiscount] = useState(150)
+  const [budget, setBudget] = useState(exampleNeeds.budget)
+  const [maxWidth, setMaxWidth] = useState(exampleNeeds.maxWidth)
+  const [minimumShelves, setMinimumShelves] = useState(exampleNeeds.minimumShelves)
+  const [offerDiscount, setOfferDiscount] = useState(alternative.discount)
   const [scenario, setScenario] = useState<'planned' | 'growth'>('planned')
   const [path, query = ''] = location.split('?')
 
