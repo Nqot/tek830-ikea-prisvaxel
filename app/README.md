@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+# Prisväxeln
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A TEK830 Sustainable digitalization prototype exploring how IKEA could make a comparable lower-impact product more affordable while considering the total effect of increased demand.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+From this `app` folder, run:
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```sh
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Open the local URL shown by Vite. Keep the development server running while working. `npm run build` creates a production build; `npm run lint` checks the source.
+
+## Prototype views
+
+- **The idea** introduces the affordability problem, Emma and the proposed process.
+- **For the customer** lets Emma change a storage cabinet's maximum width, minimum shelf count and budget, then compare a fictional product pair and choose an example.
+- **For IKEA** lets a visitor set one of three illustrative discounts. The customer view uses that same offer. Two fixed demand scenarios show how additional purchases could outweigh per-product improvements.
+- **Data & assumptions** describes the example values, rules and limits.
+
+The offer, products, prices, matching rules and campaign scenarios are hardcoded teaching examples. The selected offer exists only in browser memory and resets on refresh. The app has no backend, accounts, checkout, live product feed or connection to IKEA systems. It does not predict demand or verify environmental impact.
+
+## Source structure
+
+- `src/pages/` contains the project, customer, IKEA and method views.
+- `src/components/` contains the shared layout, product cards and original SVG cabinet illustration.
+- `src/data/demo.ts` is the small demonstration dataset.
+- `src/types/domain.ts` describes the product and scenario types.
+- `src/lib/format.ts` keeps price and number formatting consistent.

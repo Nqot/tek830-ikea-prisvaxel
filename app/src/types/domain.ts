@@ -1,5 +1,6 @@
 export interface Product {
   id: string
+  category: 'storage-cabinet'
   name: string
   description: string
   finish: string
@@ -9,6 +10,7 @@ export interface Product {
   depth: number
   height: number
   capacity: string
+  adjustableShelves: number
   climateKg: number
   virginMaterialKg: number
   illustration: 'original' | 'alternative'
@@ -21,8 +23,4 @@ export interface CampaignScenario {
   units: number
   climateKg: number
   materialKg: number
-  revenue: number
-  discountSpend: number
-  withinLimits: boolean
-  explanation: string
 }

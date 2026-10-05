@@ -18,10 +18,10 @@ export function Layout({ children, path }: { children: ReactNode; path: string }
     </header>
     <main id="main" tabIndex={-1} className="container">{children}</main>
     <footer className="site-footer"><div className="container footer-grid">
-      <div><a className="wordmark" href="#/">prisväxeln<span className="brand-stop">.</span></a><p>A little more choice.<br />A little more within reach.</p></div>
-      <div className="footer-links"><a href="#/project">About & contact</a><a href="#/method">Data & assumptions</a><a href="#/project?section=ai">Use of AI</a></div>
-      <p className="footer-note">An independent student prototype.<br />Not an official IKEA service.<br />Chalmers · TEK830 · 2026</p>
-    </div></footer>
+      <div className="footer-brand"><a className="wordmark" href="#/">prisväxeln<span className="brand-stop">.</span></a><p>Make the considered choice<br />easier to reach.</p></div>
+      <nav className="footer-links" aria-label="Project links"><span className="footer-heading">Explore</span><a href="#/emma">Customer prototype</a><a href="#/ikea">IKEA perspective</a><a href="#/method">Data & assumptions</a></nav>
+      <div className="footer-project"><span className="footer-heading">A student project</span><p>Chalmers · TEK830<br />Sustainable digitalization · 2026</p><p className="footer-note">Independent concept. Not an official IKEA service.</p></div>
+    </div><div className="container footer-bottom"><span>Prisväxeln · A concept prototype</span><a href="#/project?section=ai">How we used AI</a></div></footer>
   </>
 }
 

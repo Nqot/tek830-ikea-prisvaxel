@@ -255,3 +255,50 @@
   .offer-numbers > div { display: flex; justify-content: space-between; gap: 16px; }
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* Focused form, offer and footer additions for the interactive prototype. */
+.footer-grid { padding-block: 56px 40px; }
+.footer-brand p { font-size: 16px; line-height: 1.55; }
+.footer-heading { display: block; margin-bottom: 12px; color: var(--muted); font-size: 12px; letter-spacing: .02em; }
+.footer-links a { min-height: 40px; }
+.footer-project p { margin-top: 0; line-height: 1.65; }
+.footer-project .footer-note { margin-top: 12px; font-size: 12px; }
+.footer-bottom { min-height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.footer-bottom a { min-height: 44px; display: inline-flex; align-items: center; }
+.needs-form { grid-template-columns: 1fr; gap: 24px; }
+.needs-fields { min-width: 0; }
+.field-label, .form-field label, .offer-config > label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+.scope-value { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; font-weight: 600; min-height: 40px; }
+.field-help { display: block; margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.criteria-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 24px; margin-top: 28px; }
+.form-field select, .offer-config select { display: block; width: 100%; min-height: 48px; border: 1px solid #767676; border-radius: 3px; padding: 10px 40px 10px 12px; color: var(--text); background-color: var(--background); font: inherit; font-size: 15px; }
+.form-field select:focus-visible, .offer-config select:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.needs-action { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 24px; }
+.needs-action .field-help { margin: 0; }
+.matching-section { padding-top: 8px; }
+.matching-section .comparison-intro { margin-top: 48px; }
+.offer-workflow { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 24px; align-items: center; padding-block: 32px; border-block: 1px solid var(--line); margin-bottom: 32px; }
+.offer-workflow article .step-number { margin: 0 0 14px; font-size: 12px; }
+.offer-workflow h2 { font-size: 20px; letter-spacing: -.35px; margin-bottom: 10px; }
+.offer-workflow article p { color: var(--muted); font-size: 14px; }
+.workflow-arrow { color: var(--muted); font-size: 20px; }
+.offer-details { margin: 24px 0 0; }
+.offer-details > div { display: flex; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line); padding: 10px 0; font-size: 14px; }
+.offer-details dt { color: var(--muted); }
+.offer-details dd { margin: 0; text-align: right; }
+.offer-config { align-self: center; max-width: 560px; }
+.offer-config .field-help { margin-bottom: 24px; }
+.offer-config .offer-numbers { margin-top: 28px; }
+.offer-config .offer-numbers dd { font-size: 22px; }
+.scenario-option:focus-within { outline: 3px solid var(--accent); outline-offset: 4px; }
+.scenario-picker input:focus-visible { outline-offset: 3px; }
+.product-card .budget-message { min-height: 24px; }
+.method-layout aside a { color: var(--accent); text-underline-offset: 4px; }
+@media (max-width: 1000px) { .criteria-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .criteria-grid .budget-field { max-width: none; } }
+@media (max-width: 760px) {
+  .footer-bottom { align-items: flex-start; flex-direction: column; justify-content: center; gap: 0; padding-block: 8px; }
+  .criteria-grid { grid-template-columns: 1fr; gap: 20px; }
+  .needs-action { align-items: flex-start; flex-direction: column; }
+  .offer-workflow { grid-template-columns: 1fr; gap: 16px; }
+  .workflow-arrow { transform: rotate(90deg); justify-self: start; }
+}

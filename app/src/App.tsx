@@ -16,6 +16,9 @@ export default function App() {
   const [location, setLocation] = useState(() => window.location.hash.slice(1) || '/')
   const [selectedProduct, setSelectedProduct] = useState<string | null>(null)
   const [budget, setBudget] = useState('900')
+  const [maxWidth, setMaxWidth] = useState('80')
+  const [minimumShelves, setMinimumShelves] = useState('2')
+  const [offerDiscount, setOfferDiscount] = useState(150)
   const [scenario, setScenario] = useState<'planned' | 'growth'>('planned')
   const [path, query = ''] = location.split('?')
 
@@ -36,9 +39,9 @@ export default function App() {
 
   let page
   switch (path) {
-    case '/': page = <HomePage />; break
-    case '/emma': page = <EmmaPage budget={budget} onBudgetChange={setBudget} selected={selectedProduct} onSelect={setSelectedProduct} />; break
-    case '/ikea': page = <IkeaPage scenario={scenario} onScenarioChange={setScenario} />; break
+    case '/': page = <HomePage offerDiscount={offerDiscount} />; break
+    case '/emma': page = <EmmaPage budget={budget} onBudgetChange={setBudget} maxWidth={maxWidth} onMaxWidthChange={setMaxWidth} minimumShelves={minimumShelves} onMinimumShelvesChange={setMinimumShelves} offerDiscount={offerDiscount} selected={selectedProduct} onSelect={setSelectedProduct} />; break
+    case '/ikea': page = <IkeaPage scenario={scenario} onScenarioChange={setScenario} offerDiscount={offerDiscount} onOfferDiscountChange={(value) => { setOfferDiscount(value); setSelectedProduct(null) }} />; break
     case '/project': page = <ProjectPage />; break
     case '/method': page = <MethodPage />; break
     default: page = <section className="page-intro"><p className="eyebrow">Page not found</p><h1>Let’s get you back.</h1><a className="button" href="#/">Back to Prisväxeln</a></section>
